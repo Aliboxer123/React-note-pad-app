@@ -27,7 +27,7 @@ export default function MainContent() {
         }
     }
     
-    return (<div><div className="main">Here are your notes!</div>
+    return (<div><div className="main">Here are your notes! Second branch!</div>
         <form onSubmit={(e) => handleSubmit(e)}><textarea ref={useRef} name="notes" onChange={(e) => change(e)} id="notes" value={noteInput} />
         <button className={!crossClass ? "emptyButton": ''}>Submit here</button>    
         </form>
